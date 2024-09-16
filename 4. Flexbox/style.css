@@ -1,0 +1,57 @@
+.container {
+    border: dashed;
+    display: flex;
+    height: 50vh;
+   
+   
+       
+}
+
+.item {
+    --hue: 0;
+    text-align: center;
+    background-color: hsl(var(--hue), 100%, 70%);
+    flex-basis: 120px;
+}
+
+.container :nth-child(1) {
+    --hue: 0;
+    background-color: hsl(var(--hue), 100%, 70%);
+    
+}
+
+.container :nth-child(2) {
+    --hue: 100;
+    background-color: hsl(var(--hue), 100%, 70%);
+}
+
+.container :nth-child(3) {
+    --hue: 200;
+    background-color: hsl(var(--hue), 100%, 70%);
+    
+}
+
+.container :nth-child(4) {
+    --hue: 300;
+    background-color: hsl(var(--hue), 100%, 70%);
+}
+
+.container :nth-child(5) {
+    --hue: 0;
+    background-color: hsl(var(--hue), 100%, 70%);
+}
+
+.container :nth-child(6) {
+    --hue: 100;
+    background-color: hsl(var(--hue), 100%, 70%);
+}
+
+.container :nth-child(7) {
+    --hue: 200;
+    background-color: hsl(var(--hue), 100%, 70%);
+}
+
+.container :nth-child(8) {
+    --hue: 300;
+    background-color: hsl(var(--hue), 100%, 70%);
+}
